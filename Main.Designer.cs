@@ -129,7 +129,6 @@
             // 
             // GetServerHost
             // 
-            GetServerHost.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             GetServerHost.BackColor = Color.FromArgb(240, 240, 240);
             GetServerHost.BorderStyle = BorderStyle.FixedSingle;
             GetServerHost.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -142,7 +141,6 @@
             // 
             // label2
             // 
-            label2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(60, 60, 60);
@@ -154,7 +152,6 @@
             // 
             // GetProxyPort
             // 
-            GetProxyPort.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             GetProxyPort.BackColor = Color.FromArgb(240, 240, 240);
             GetProxyPort.BorderStyle = BorderStyle.None;
             GetProxyPort.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
@@ -168,7 +165,6 @@
             // 
             TabMain.Controls.Add(tabPage1);
             TabMain.Controls.Add(tabPage2);
-            TabMain.Dock = DockStyle.Fill;
             TabMain.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             TabMain.Location = new Point(0, 0);
             TabMain.Name = "TabMain";
@@ -208,7 +204,6 @@
             // EnableShowLog
             // 
             EnableShowLog.AutoSize = true;
-            EnableShowLog.Dock = DockStyle.Right;
             EnableShowLog.Location = new Point(66, 23);
             EnableShowLog.Name = "EnableShowLog";
             EnableShowLog.Size = new Size(64, 25);
@@ -222,7 +217,6 @@
             EnableSendLog.Checked = true;
             EnableSendLog.CheckState = CheckState.Checked;
             EnableSendLog.Cursor = Cursors.Hand;
-            EnableSendLog.Dock = DockStyle.Left;
             EnableSendLog.ForeColor = Color.FromArgb(60, 60, 60);
             EnableSendLog.Location = new Point(3, 23);
             EnableSendLog.Name = "EnableSendLog";
@@ -233,7 +227,6 @@
             // 
             // grConfigGameLite
             // 
-            grConfigGameLite.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             grConfigGameLite.Controls.Add(Set_LA_Select);
             grConfigGameLite.Controls.Add(Set_LA_GameFolder);
             grConfigGameLite.Controls.Add(label5);
@@ -249,7 +242,6 @@
             // 
             // Set_LA_Select
             // 
-            Set_LA_Select.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             Set_LA_Select.BackColor = Color.FromArgb(46, 204, 113);
             Set_LA_Select.Cursor = Cursors.Hand;
             Set_LA_Select.FlatAppearance.BorderSize = 0;
@@ -265,7 +257,6 @@
             // 
             // Set_LA_GameFolder
             // 
-            Set_LA_GameFolder.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             Set_LA_GameFolder.BackColor = Color.FromArgb(240, 240, 240);
             Set_LA_GameFolder.BorderStyle = BorderStyle.FixedSingle;
             Set_LA_GameFolder.Location = new Point(113, 22);
@@ -287,7 +278,6 @@
             // 
             // stIsRunProxy
             // 
-            stIsRunProxy.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             stIsRunProxy.AutoSize = true;
             stIsRunProxy.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             stIsRunProxy.ForeColor = Color.FromArgb(60, 60, 60);
@@ -300,7 +290,6 @@
             // 
             // groupBox8
             // 
-            groupBox8.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             groupBox8.BackColor = Color.Transparent;
             groupBox8.Controls.Add(Enable_WipeLoginCache);
             groupBox8.Controls.Add(btStartYuukiServer);
@@ -320,8 +309,7 @@
             // 
             // btStartYuukiServer
             // 
-            btStartYuukiServer.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btStartYuukiServer.AutoSize = true;
+            btStartYuukiServer.AutoSize = false;
             btStartYuukiServer.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btStartYuukiServer.BackColor = Color.FromArgb(52, 152, 219);
             btStartYuukiServer.Cursor = Cursors.Hand;
@@ -339,7 +327,6 @@
             // 
             // GetTypeGame
             // 
-            GetTypeGame.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             GetTypeGame.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             GetTypeGame.FormattingEnabled = true;
             GetTypeGame.ImeMode = ImeMode.NoControl;
@@ -351,8 +338,7 @@
             // 
             // btStartOfficialServer
             // 
-            btStartOfficialServer.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btStartOfficialServer.AutoSize = true;
+            btStartOfficialServer.AutoSize = false;
             btStartOfficialServer.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btStartOfficialServer.BackColor = Color.FromArgb(46, 204, 113);
             btStartOfficialServer.Cursor = Cursors.Hand;
@@ -370,7 +356,6 @@
             // 
             // grProfile
             // 
-            grProfile.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             grProfile.BackColor = Color.FromArgb(245, 245, 245);
             grProfile.Controls.Add(GetProfileServer);
             grProfile.Controls.Add(btload);
@@ -388,7 +373,6 @@
             // 
             // GetProfileServer
             // 
-            GetProfileServer.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             GetProfileServer.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             GetProfileServer.FormattingEnabled = true;
             GetProfileServer.Location = new Point(14, 33);
@@ -399,7 +383,6 @@
             // 
             // btload
             // 
-            btload.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btload.BackColor = Color.FromArgb(52, 152, 219);
             btload.Cursor = Cursors.Hand;
             btload.FlatAppearance.BorderSize = 0;
@@ -416,7 +399,6 @@
             // 
             // btsave
             // 
-            btsave.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btsave.BackColor = Color.FromArgb(46, 204, 113);
             btsave.Cursor = Cursors.Hand;
             btsave.FlatAppearance.BorderSize = 0;
@@ -433,7 +415,6 @@
             // 
             // label8
             // 
-            label8.Anchor = AnchorStyles.Right;
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             label8.ForeColor = Color.FromArgb(60, 60, 60);
@@ -446,7 +427,6 @@
             // 
             // grExtra
             // 
-            grExtra.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             grExtra.BackColor = SystemColors.ButtonFace;
             grExtra.Controls.Add(ExtraCheat);
             grExtra.Controls.Add(Enable_RPC);
@@ -475,8 +455,6 @@
             // 
             ExtraCheat.AutoSize = true;
             ExtraCheat.Cursor = Cursors.Hand;
-            ExtraCheat.Dock = DockStyle.Top;
-            ExtraCheat.ForeColor = Color.FromArgb(60, 60, 60);
             ExtraCheat.Location = new Point(3, 47);
             ExtraCheat.Name = "ExtraCheat";
             ExtraCheat.Size = new Size(211, 24);
@@ -488,8 +466,6 @@
             // 
             Enable_RPC.AutoSize = true;
             Enable_RPC.Cursor = Cursors.Hand;
-            Enable_RPC.Dock = DockStyle.Top;
-            Enable_RPC.ForeColor = Color.FromArgb(60, 60, 60);
             Enable_RPC.Location = new Point(3, 23);
             Enable_RPC.Name = "Enable_RPC";
             Enable_RPC.Size = new Size(211, 24);
@@ -500,7 +476,6 @@
             // 
             // grProxy
             // 
-            grProxy.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             grProxy.BackColor = Color.FromArgb(240, 240, 240);
             grProxy.Controls.Add(GetProxyPort);
             grProxy.Controls.Add(CheckProxyEnable);
@@ -520,8 +495,6 @@
             CheckProxyEnable.Checked = true;
             CheckProxyEnable.CheckState = CheckState.Checked;
             CheckProxyEnable.Cursor = Cursors.Hand;
-            CheckProxyEnable.Dock = DockStyle.Left;
-            CheckProxyEnable.ForeColor = Color.FromArgb(60, 60, 60);
             CheckProxyEnable.Location = new Point(3, 21);
             CheckProxyEnable.Name = "CheckProxyEnable";
             CheckProxyEnable.Size = new Size(68, 27);
@@ -531,7 +504,6 @@
             // 
             // groupBox3
             // 
-            groupBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             groupBox3.BackColor = Color.FromArgb(240, 240, 240);
             groupBox3.Controls.Add(Get_LA_Version);
             groupBox3.Controls.Add(Get_LA_MD5);
@@ -549,7 +521,6 @@
             // 
             // Get_LA_Version
             // 
-            Get_LA_Version.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             Get_LA_Version.AutoSize = true;
             Get_LA_Version.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             Get_LA_Version.ForeColor = Color.FromArgb(60, 60, 60);
@@ -562,7 +533,6 @@
             // 
             // Get_LA_MD5
             // 
-            Get_LA_MD5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             Get_LA_MD5.AutoSize = true;
             Get_LA_MD5.Cursor = Cursors.Hand;
             Get_LA_MD5.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
@@ -577,7 +547,6 @@
             // 
             // Get_LA_CH
             // 
-            Get_LA_CH.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             Get_LA_CH.AutoSize = true;
             Get_LA_CH.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             Get_LA_CH.ForeColor = Color.FromArgb(60, 60, 60);
@@ -590,7 +559,6 @@
             // 
             // Get_LA_REL
             // 
-            Get_LA_REL.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             Get_LA_REL.AutoSize = true;
             Get_LA_REL.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point);
             Get_LA_REL.ForeColor = Color.FromArgb(50, 50, 50);
@@ -642,7 +610,6 @@
             // 
             // Server_Start
             // 
-            Server_Start.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             Server_Start.BackColor = Color.FromArgb(52, 152, 219);
             Server_Start.Cursor = Cursors.Hand;
             Server_Start.FlatStyle = FlatStyle.Flat;
@@ -658,7 +625,6 @@
             // 
             // groupBox5
             // 
-            groupBox5.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             groupBox5.Controls.Add(Server_DL_GC);
             groupBox5.Controls.Add(comboBox1);
             groupBox5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -671,7 +637,6 @@
             // 
             // Server_DL_GC
             // 
-            Server_DL_GC.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             Server_DL_GC.BackColor = Color.FromArgb(46, 204, 113);
             Server_DL_GC.Cursor = Cursors.Hand;
             Server_DL_GC.FlatStyle = FlatStyle.Flat;
@@ -686,7 +651,6 @@
             // 
             // comboBox1
             // 
-            comboBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             comboBox1.FlatStyle = FlatStyle.Flat;
             comboBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
@@ -699,7 +663,6 @@
             // 
             // groupBox6
             // 
-            groupBox6.Anchor = AnchorStyles.Top;
             groupBox6.Controls.Add(Server_DL_RES);
             groupBox6.Controls.Add(comboBox2);
             groupBox6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -712,7 +675,6 @@
             // 
             // Server_DL_RES
             // 
-            Server_DL_RES.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             Server_DL_RES.Location = new Point(10, 73);
             Server_DL_RES.Name = "Server_DL_RES";
             Server_DL_RES.Size = new Size(201, 35);
@@ -722,7 +684,6 @@
             // 
             // comboBox2
             // 
-            comboBox2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             comboBox2.FormattingEnabled = true;
             comboBox2.Items.AddRange(new object[] { "Yuuki Gitlab 3.1", "Yuuki Gitlab 3.0", "Yuuki Gitlab 2.8", "Yuuki Gitlab 2.7", "Yuuki Gitlab 2.6" });
             comboBox2.Location = new Point(10, 29);
@@ -745,7 +706,6 @@
             // 
             // Server_DL_DB
             // 
-            Server_DL_DB.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             Server_DL_DB.Location = new Point(10, 73);
             Server_DL_DB.Name = "Server_DL_DB";
             Server_DL_DB.Size = new Size(201, 35);
@@ -755,7 +715,6 @@
             // 
             // Server_DL_JAVA
             // 
-            Server_DL_JAVA.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             Server_DL_JAVA.Location = new Point(10, 29);
             Server_DL_JAVA.Name = "Server_DL_JAVA";
             Server_DL_JAVA.Size = new Size(201, 35);
@@ -786,7 +745,6 @@
             // 
             // textBox4
             // 
-            textBox4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBox4.BackColor = Color.White;
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -807,7 +765,6 @@
             // 
             // textBox3
             // 
-            textBox3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBox3.BackColor = Color.White;
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -828,7 +785,6 @@
             // 
             // button1
             // 
-            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             button1.BackColor = Color.FromArgb(52, 152, 219);
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Flat;
@@ -843,7 +799,6 @@
             // 
             // textBox2
             // 
-            textBox2.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBox2.BackColor = Color.White;
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -864,7 +819,6 @@
             // 
             // textBox1
             // 
-            textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textBox1.BackColor = Color.White;
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -965,6 +919,7 @@
             Controls.Add(linkGithub);
             Controls.Add(linkDiscord);
             Controls.Add(TabMain);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MaximumSize = new Size(1096, 645);
             MinimumSize = new Size(726, 435);
